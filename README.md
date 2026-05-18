@@ -1,3 +1,4 @@
+
 # StudyMate - AI-Powered Student Learning Assistant
 
 StudyMate is a lightweight, clean, full-stack AI study companion for students. The application allows users to register or log in, drag-and-drop PDF study materials, generate automated concise summaries and keyword indices, and ask AI-powered context-specific questions about the document in an interactive chat interface.
@@ -146,3 +147,4 @@ StudyMate/
   * *A:* The Hugging Face models will take 1-2 minutes to download during the very first extraction/summarization call. Please keep the FastAPI terminal active while it completes the downloads. Subsequent runs will be extremely fast as they are cached locally.
 * **Q: npm install fails with dependency conflicts.**
   * *A:* Try running `npm install --legacy-peer-deps` to bypass local environment warnings.
+
